@@ -30,8 +30,6 @@ The map and search load `mapdata.json` with `fetch`, so open the site through a 
 https://henry-tlai.github.io/BiteOfSeattle-Website/Sprint/HTML/homepage/
 ```
 
-Then go to <http://localhost:8000/HTML/homepage/index.html>.
-
 ## Repo layout
 
 ```

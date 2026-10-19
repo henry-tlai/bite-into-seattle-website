@@ -26,9 +26,8 @@ HTML, CSS, JavaScript, [Plotly.js](https://plotly.com/javascript/) (map), [Fuse.
 
 The map and search load `mapdata.json` with `fetch`, so open the site through a local server rather than double-clicking the HTML files:
 
-```bash
-cd Sprint
-python3 -m http.server 8000
+```
+https://henry-tlai.github.io/BiteOfSeattle-Website/Sprint/HTML/homepage/
 ```
 
 Then go to <http://localhost:8000/HTML/homepage/index.html>.

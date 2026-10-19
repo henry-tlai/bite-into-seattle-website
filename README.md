@@ -39,7 +39,6 @@ Sprint/                  The website
   img/                   Shared images
   fonts/                 Custom fonts
 ICE/                     Separate in-class exercise (a mock newspaper page)
-docs/project-plan.md     Full original project proposal and team plan
 ```
 
 ## Team

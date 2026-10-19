@@ -1,25 +1,56 @@
-- Website Subject:
-Restaurant Review Website
-- Website Description:
-A Blog with reviews and photos of food
-- Interactive map/Location: 
-Reviewed restaurants will become pinned on an interactive map showing the surroundings of Seattle.
-And become accessible with just a click. You can find information, where it is, and reviews made of the restaurant.
-This purpose is to provide users with a way to choose where they’d like to eat if they’d like it to be in a certain part of Seattle.
-Whether that’s downtown, Capitol Hill, around UW, and more. 
-- About Us:
-It’s important to highlight the creators of the website and provide a more personal connection from those who are curious to get to know who is behind the website's idea. 
-- Website Purpose:
-The goal of our website is to serve as a point of access for visitors and locals alike to the vast breadth of the Seattle food scene.
-The city and the surrounding areas foster a vibrant restaurant environment with both classic staples and an innumerable amount of new culinary experiences.
-With the variety available and the sheer number of restaurants it can be difficult to both find things like local favorites or make an informed decision on if a restaurant
-is worth the real time and money sink that eating out requires. Our website aims to streamline this process through a comprehensive review platform powered by those who share
-the perspective of the average user and the average diner in the Seattle area. It is with this more focused view that we seek to provide a deeper more personal touch to the common
-review format. 
-- Team Plan:
-Each week our group will actively engage in our shared Teams chat, along with our personal group messages to stay on top of weekly tasks.
-Along with splitting and enlisting tasks to each other to ensure that work is divided up as evenly as possible and tasks can get done as organized as they can be. 
-We will also make sure to incorporate our own individual ideas and brainstorm together as a group. That way our own creative takes on different designs can be implemented
-within our website and its design. An example of how we recently did this is we enlisted tasks for our first project milestone this week by having everyone do their own wireframe
-idea for our website. Although we all have an idea of what it’s about and what it’ll look like, we sketched out our own designs and shared them with each other. We realized all of
-our wireframe designs are slightly different and are planning to integrate different aspects of each of our designs into our final webpage wireframe. 
+# Bite Into Seattle
+
+A restaurant review blog with photos and an interactive map of Seattle. Built as a team project for a web development class.
+
+## Purpose
+
+Seattle has a huge and constantly changing restaurant scene, which makes it hard to find local favorites or know whether a place is worth the time and money. Bite Into Seattle helps visitors and locals decide where to eat, with reviews written from the perspective of the average diner and a more personal touch than the typical review site.
+
+## Features
+
+- **Reviews:** a blog-style page with a write-up and photos for each restaurant (12 reviews)
+- **Interactive map:** reviewed restaurants are pinned on a map of Seattle. Clicking a pin shows where the restaurant is and links to its review, so users can pick a place in the part of town they want (downtown, Capitol Hill, around UW, and more).
+- **Search:** a homepage search box that looks up restaurants by name
+- **About us:** introduces the creators so visitors can get to know who is behind the site
+- **Contact:** a contact form
+
+## Team plan
+
+The team coordinated weekly through a shared Teams chat and group messages, split tasks to keep the workload even, and brainstormed together. For the first milestone, each member sketched their own wireframe, and the final wireframe combined parts of all of them.
+
+## Tech stack
+
+HTML, CSS, JavaScript, [Plotly.js](https://plotly.com/javascript/) (map), [Fuse.js](https://www.fusejs.io/) (search)
+
+## Run it locally
+
+The map and search load `mapdata.json` with `fetch`, so open the site through a local server rather than double-clicking the HTML files:
+
+```bash
+cd Sprint
+python3 -m http.server 8000
+```
+
+Then go to <http://localhost:8000/HTML/homepage/index.html>.
+
+## Repo layout
+
+```
+Sprint/                  The website
+  HTML/                  One folder per page (homepage, review, reviewarticles, location, about, contact)
+  CSS/                   Stylesheets
+  JavaScript/            Page scripts and mapdata.json (restaurant coordinates and links)
+  img/                   Shared images
+  fonts/                 Custom fonts
+ICE/                     Separate in-class exercise (a mock newspaper page)
+docs/project-plan.md     Full original project proposal and team plan
+```
+
+## Team
+
+Team MAHI, a group of Seattle University Computer Science students:
+
+- **M**oises
+- **A**dela
+- **H**enry
+- **I**vanna

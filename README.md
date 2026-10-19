@@ -27,7 +27,7 @@ HTML, CSS, JavaScript, [Plotly.js](https://plotly.com/javascript/) (map), [Fuse.
 The map and search load `mapdata.json` with `fetch`, so open the site through a local server rather than double-clicking the HTML files:
 
 ```
-https://henry-tlai.github.io/BiteOfSeattle-Website/Sprint/HTML/homepage/
+[https://henry-tlai.github.io/BiteOfSeattle-Website/Sprint/HTML/homepage/](https://henry-tlai.github.io/bite-into-seattle-website/Sprint/HTML/homepage/index.html)
 ```
 
 ## Repo layout
